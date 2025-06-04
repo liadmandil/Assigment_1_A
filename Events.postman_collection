@@ -59,8 +59,30 @@
 		{
 			"name": "Update Event",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"Name\",\r\n  \"startDate\": \"2025-06-03T14:38:03.065Z\",\r\n  \"endDate\": \"2025-06-03T14:38:03.065Z\",\r\n  \"maxRegistrations\": 30,\r\n  \"location\": \"Tel Aviv\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5062/api/event/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5062",
+					"path": [
+						"api",
+						"event",
+						"5"
+					]
+				}
 			},
 			"response": []
 		},
@@ -96,8 +118,31 @@
 		{
 			"name": "Register User To Event",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"string\",\r\n  \"dateOfBirth\": \"2010-03-03\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5062/api/Event/6/registration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5062",
+					"path": [
+						"api",
+						"Event",
+						"6",
+						"registration"
+					]
+				}
 			},
 			"response": []
 		},
