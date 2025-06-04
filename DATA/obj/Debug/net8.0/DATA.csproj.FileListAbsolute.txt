@@ -1,0 +1,43 @@
+C:\Users\ruppin\source\repos\DATA\DATA\bin\Debug\net8.0\DATA.deps.json
+C:\Users\ruppin\source\repos\DATA\DATA\bin\Debug\net8.0\DATA.runtimeconfig.json
+C:\Users\ruppin\source\repos\DATA\DATA\bin\Debug\net8.0\DATA.dll
+C:\Users\ruppin\source\repos\DATA\DATA\bin\Debug\net8.0\DATA.pdb
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\DATA.csproj.AssemblyReference.cache
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\DATA.AssemblyInfoInputs.cache
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\DATA.AssemblyInfo.cs
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\DATA.csproj.CoreCompileInputs.cache
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\DATA.dll
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\refint\DATA.dll
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\DATA.pdb
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\DATA.genruntimeconfig.cache
+C:\Users\ruppin\source\repos\DATA\DATA\obj\Debug\net8.0\ref\DATA.dll
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\bin\Debug\net8.0\DATA.deps.json
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\bin\Debug\net8.0\DATA.runtimeconfig.json
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\bin\Debug\net8.0\DATA.dll
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\bin\Debug\net8.0\DATA.pdb
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\DATA.csproj.AssemblyReference.cache
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\DATA.AssemblyInfoInputs.cache
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\DATA.AssemblyInfo.cs
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\DATA.csproj.CoreCompileInputs.cache
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\DATA.dll
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\refint\DATA.dll
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\DATA.pdb
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\DATA.genruntimeconfig.cache
+C:\Users\Liad M\Desktop\ruppin\צד שרת\מטלה מסכמת\DATA\DATA\obj\Debug\net8.0\ref\DATA.dll
+C:\Users\Liad M\Desktop\DATA\DATA\bin\Debug\net8.0\DATA.deps.json
+C:\Users\Liad M\Desktop\DATA\DATA\bin\Debug\net8.0\DATA.runtimeconfig.json
+C:\Users\Liad M\Desktop\DATA\DATA\bin\Debug\net8.0\DATA.dll
+C:\Users\Liad M\Desktop\DATA\DATA\bin\Debug\net8.0\DATA.pdb
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.csproj.AssemblyReference.cache
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.AssemblyInfoInputs.cache
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.AssemblyInfo.cs
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.csproj.CoreCompileInputs.cache
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.sourcelink.json
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.dll
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\refint\DATA.dll
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.pdb
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\DATA.genruntimeconfig.cache
+C:\Users\Liad M\Desktop\DATA\DATA\obj\Debug\net8.0\ref\DATA.dll
