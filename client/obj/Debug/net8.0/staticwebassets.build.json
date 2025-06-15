@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "qSR/4CrC4O8pzw5u8/PuBcao6Q4c57A1JNa6wX2u4+E=",
+  "Source": "client",
+  "BasePath": "_content/client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "client\\wwwroot",
+      "Source": "client",
+      "ContentRoot": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\",
+      "BasePath": "_content/client",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\css\\style.css",
+      "SourceId": "client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\",
+      "BasePath": "_content/client",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rvc4btvxtn",
+      "Integrity": "yTasGga/DPCVsKJCKWQBUQ3B+kZGM2xoo9cTJQBNF5w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\html\\homePage.html",
+      "SourceId": "client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\",
+      "BasePath": "_content/client",
+      "RelativePath": "html/homePage#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y6eefzm30s",
+      "Integrity": "WjpVu4IsQTZEwB9Bq2Kl0GOc+3cEvvpq1F7UQHGR+VI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\homePage.html"
+    },
+    {
+      "Identity": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\html\\login.html",
+      "SourceId": "client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\",
+      "BasePath": "_content/client",
+      "RelativePath": "html/login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oj2abq6kib",
+      "Integrity": "ZB6L2rGJz9sDRiITt5B3FuI7FDX9DotYIPmap308FTQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\js\\homePage.js",
+      "SourceId": "client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\",
+      "BasePath": "_content/client",
+      "RelativePath": "js/homePage#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8z4d7fbnpx",
+      "Integrity": "dM2G1gbf7ldX9X6TdOR5ESc0BpqINbIrStdoJ4J5COo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\homePage.js"
+    },
+    {
+      "Identity": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\js\\login.js",
+      "SourceId": "client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\",
+      "BasePath": "_content/client",
+      "RelativePath": "js/login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9qbztdqc2l",
+      "Integrity": "36jMT2xFJbuu8iVFsdxjZ5nSmju6oOg8afYAlEx/3oE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yTasGga/DPCVsKJCKWQBUQ3B+kZGM2xoo9cTJQBNF5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:14:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yTasGga/DPCVsKJCKWQBUQ3B+kZGM2xoo9cTJQBNF5w="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.rvc4btvxtn.css",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yTasGga/DPCVsKJCKWQBUQ3B+kZGM2xoo9cTJQBNF5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:14:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rvc4btvxtn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yTasGga/DPCVsKJCKWQBUQ3B+kZGM2xoo9cTJQBNF5w="
+        }
+      ]
+    },
+    {
+      "Route": "html/homePage.html",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\html\\homePage.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WjpVu4IsQTZEwB9Bq2Kl0GOc+3cEvvpq1F7UQHGR+VI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:14:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WjpVu4IsQTZEwB9Bq2Kl0GOc+3cEvvpq1F7UQHGR+VI="
+        }
+      ]
+    },
+    {
+      "Route": "html/homePage.y6eefzm30s.html",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\html\\homePage.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WjpVu4IsQTZEwB9Bq2Kl0GOc+3cEvvpq1F7UQHGR+VI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:14:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y6eefzm30s"
+        },
+        {
+          "Name": "label",
+          "Value": "html/homePage.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WjpVu4IsQTZEwB9Bq2Kl0GOc+3cEvvpq1F7UQHGR+VI="
+        }
+      ]
+    },
+    {
+      "Route": "html/login.html",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\html\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZB6L2rGJz9sDRiITt5B3FuI7FDX9DotYIPmap308FTQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 11:53:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZB6L2rGJz9sDRiITt5B3FuI7FDX9DotYIPmap308FTQ="
+        }
+      ]
+    },
+    {
+      "Route": "html/login.oj2abq6kib.html",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\html\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZB6L2rGJz9sDRiITt5B3FuI7FDX9DotYIPmap308FTQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 11:53:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oj2abq6kib"
+        },
+        {
+          "Name": "label",
+          "Value": "html/login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZB6L2rGJz9sDRiITt5B3FuI7FDX9DotYIPmap308FTQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/homePage.8z4d7fbnpx.js",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\js\\homePage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dM2G1gbf7ldX9X6TdOR5ESc0BpqINbIrStdoJ4J5COo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:13:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8z4d7fbnpx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/homePage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dM2G1gbf7ldX9X6TdOR5ESc0BpqINbIrStdoJ4J5COo="
+        }
+      ]
+    },
+    {
+      "Route": "js/homePage.js",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\js\\homePage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dM2G1gbf7ldX9X6TdOR5ESc0BpqINbIrStdoJ4J5COo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:13:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dM2G1gbf7ldX9X6TdOR5ESc0BpqINbIrStdoJ4J5COo="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.9qbztdqc2l.js",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36jMT2xFJbuu8iVFsdxjZ5nSmju6oOg8afYAlEx/3oE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 11:56:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9qbztdqc2l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-36jMT2xFJbuu8iVFsdxjZ5nSmju6oOg8afYAlEx/3oE="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "C:\\Users\\Liad M\\Desktop\\DATA\\client\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36jMT2xFJbuu8iVFsdxjZ5nSmju6oOg8afYAlEx/3oE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 11:56:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-36jMT2xFJbuu8iVFsdxjZ5nSmju6oOg8afYAlEx/3oE="
+        }
+      ]
+    }
+  ]
+}

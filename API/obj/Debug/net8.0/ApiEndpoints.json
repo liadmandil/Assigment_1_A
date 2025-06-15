@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "API.Controllers.EventController",
+    "ContainingType": "API.Controllers.EventsController",
     "Method": "AddEvent",
-    "RelativePath": "api/Event",
+    "RelativePath": "api/Events",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -16,9 +16,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API.Controllers.EventController",
+    "ContainingType": "API.Controllers.EventsController",
     "Method": "GetEvent",
-    "RelativePath": "api/Event/{EventId}",
+    "RelativePath": "api/Events/{EventId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,9 @@
     ]
   },
   {
-    "ContainingType": "API.Controllers.EventController",
+    "ContainingType": "API.Controllers.EventsController",
     "Method": "UpdateExistingEvent",
-    "RelativePath": "api/Event/{EventId}",
+    "RelativePath": "api/Events/{EventId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -63,9 +63,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API.Controllers.EventController",
+    "ContainingType": "API.Controllers.EventsController",
     "Method": "DeleteEvent",
-    "RelativePath": "api/Event/{EventId}",
+    "RelativePath": "api/Events/{EventId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -79,9 +79,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API.Controllers.EventController",
+    "ContainingType": "API.Controllers.EventsController",
     "Method": "GetEventUsers",
-    "RelativePath": "api/Event/{EventId}/registration",
+    "RelativePath": "api/Events/{EventId}/registration",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -105,9 +105,9 @@
     ]
   },
   {
-    "ContainingType": "API.Controllers.EventController",
+    "ContainingType": "API.Controllers.EventsController",
     "Method": "registerUserToEvent",
-    "RelativePath": "api/Event/{EventId}/registration",
+    "RelativePath": "api/Events/{EventId}/registration",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -126,9 +126,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API.Controllers.EventController",
+    "ContainingType": "API.Controllers.EventsController",
     "Method": "getWeather",
-    "RelativePath": "api/Event/{EventId}/weather",
+    "RelativePath": "api/Events/{EventId}/weather",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -152,9 +152,9 @@
     ]
   },
   {
-    "ContainingType": "API.Controllers.EventController",
+    "ContainingType": "API.Controllers.EventsController",
     "Method": "getSchedule",
-    "RelativePath": "api/Event/schedule",
+    "RelativePath": "api/Events/schedule",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -173,6 +173,58 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[DATA.Models.Event, DATA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/Users/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATA.Models.Event",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "u",
+        "Type": "DATA.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATA.Models.User",
         "MediaTypes": [
           "text/plain",
           "application/json",

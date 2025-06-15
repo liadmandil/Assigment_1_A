@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Event/{EventId}": {
+    "/api/Events/{EventId}": {
       "get": {
         "tags": [
-          "Event"
+          "Events"
         ],
         "parameters": [
           {
@@ -46,7 +46,7 @@
       },
       "put": {
         "tags": [
-          "Event"
+          "Events"
         ],
         "parameters": [
           {
@@ -86,7 +86,7 @@
       },
       "delete": {
         "tags": [
-          "Event"
+          "Events"
         ],
         "parameters": [
           {
@@ -106,10 +106,10 @@
         }
       }
     },
-    "/api/Event": {
+    "/api/Events": {
       "post": {
         "tags": [
-          "Event"
+          "Events"
         ],
         "requestBody": {
           "content": {
@@ -137,10 +137,10 @@
         }
       }
     },
-    "/api/Event/{EventId}/registration": {
+    "/api/Events/{EventId}/registration": {
       "get": {
         "tags": [
-          "Event"
+          "Events"
         ],
         "parameters": [
           {
@@ -187,7 +187,7 @@
       },
       "post": {
         "tags": [
-          "Event"
+          "Events"
         ],
         "parameters": [
           {
@@ -226,10 +226,10 @@
         }
       }
     },
-    "/api/Event/schedule": {
+    "/api/Events/schedule": {
       "get": {
         "tags": [
-          "Event"
+          "Events"
         ],
         "parameters": [
           {
@@ -282,10 +282,10 @@
         }
       }
     },
-    "/api/Event/{EventId}/weather": {
+    "/api/Events/{EventId}/weather": {
       "get": {
         "tags": [
-          "Event"
+          "Events"
         ],
         "parameters": [
           {
@@ -315,6 +315,94 @@
               "text/json": {
                 "schema": {
                   "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users/{UserId}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "UserId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Event"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Event"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Event"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users/register": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
                 }
               }
             }
@@ -409,6 +497,10 @@
       "EventUser": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
           "eventRef": {
             "type": "integer",
             "format": "int32"

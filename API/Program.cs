@@ -9,10 +9,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<EventService>();
 builder.Services.AddScoped<EventRepository>();
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<UserRepository>();
 
 builder.Services.AddDbContext<EventsContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("")));
 builder.Services.AddMemoryCache();
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -31,5 +42,7 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors();
 
 app.Run();

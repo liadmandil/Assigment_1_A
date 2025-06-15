@@ -28,7 +28,6 @@ namespace DATA.Repository
         
 
         // get all Users in one Event   
-        
         public List<User> GetEventUsers(int id)  // event/{id}/registration [GET]
         {
             List<User> users = db.EventUsers.Where(eu => eu.EventRef == id).Join(db.Users,
@@ -43,25 +42,28 @@ namespace DATA.Repository
 
 
         // regiter Users to the Event 
-        public void RegisterUserToEvent(int Eventid, User user) // event/{id}/registration [POST]
+        public void RegisterUserToEvent(int Eventid, User user)
         {
-            EventUser currEventUser = new EventUser();
-            User newUser = new User();
-            User curr = db.Users.FirstOrDefault(u => u.Id == user.Id);
-            if (curr == null)
+            User existingUser = db.Users.FirstOrDefault(u => u.Id == user.Id);
+
+            if (existingUser == null)
             {
-                newUser.Name = user.Name;
-                newUser.DateOfBirth = user.DateOfBirth;
-                db.Users.Add(newUser);
+                existingUser = new User
+                {
+                    Name = user.Name,
+                    DateOfBirth = user.DateOfBirth
+                };
+                db.Users.Add(existingUser);
                 db.SaveChanges();
             }
-            else
+
+            var reg = new EventUser
             {
-                newUser = curr;
-            }
-            currEventUser.UserRef = newUser.Id;
-            currEventUser.EventRef = Eventid;
-            db.EventUsers.Add(currEventUser);
+                UserRef = existingUser.Id,
+                EventRef = Eventid,
+            };
+
+            db.EventUsers.Add(reg);
             db.SaveChanges();
         }
 
@@ -134,6 +136,7 @@ namespace DATA.Repository
 
                 // ניגש ל־current → weather_descriptions → [0]
                 string weatherDesc = root.GetProperty("current").GetProperty("weather_descriptions")[0].GetString();
+                Console.WriteLine(weatherDesc);
                 return weatherDesc;
             }
 

@@ -9,12 +9,12 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EventController : ControllerBase
+    public class EventsController : ControllerBase
     {
         private readonly EventService _EventService;
         private readonly IMemoryCache _memoryCache;
 
-        public EventController(EventService eventService, IMemoryCache memoryCache)
+        public EventsController(EventService eventService, IMemoryCache memoryCache)
         {
             this._EventService = eventService;
             _memoryCache = memoryCache;
@@ -95,6 +95,7 @@ namespace API.Controllers
 
         public ActionResult registerUserToEvent(int EventId, [FromBody]User user )
         {
+            
             _EventService.RegisterUserToEvent(EventId, user);
             return Ok("updated successfully");
         }
@@ -149,43 +150,35 @@ namespace API.Controllers
 
         [HttpGet]
         [Route("{EventId}/weather")]
-
         public ActionResult<string> getWeather(int EventId)
         {
             try
             {
-                string cacheData = _memoryCache.Get<string>("Weather");
-                int saveId = _memoryCache.Get<int>("EventId");
-                if (cacheData != null && saveId == EventId)
+                string cacheKey = $"Weather_{EventId}";
+                string? cachedWeather = _memoryCache.Get<string>(cacheKey);
+
+                if (cachedWeather != null)
                 {
-                    return Ok(cacheData);
+                    return Ok(cachedWeather);
                 }
+
                 var expirationTime = DateTimeOffset.Now.AddSeconds(60);
-                string weath = _EventService.GetEventWeather(EventId);
-                _memoryCache.Set("Weather", weath, expirationTime);
-                _memoryCache.Set("EventId", EventId, expirationTime);
-                return weath;
+                string weather = _EventService.GetEventWeather(EventId);
+
+                _memoryCache.Set(cacheKey, weather, expirationTime);
+
+                return Ok(weather);
             }
             catch (Exception ex)
             {
-                {
-                    return BadRequest(ex.Message);
-                }
+                return BadRequest(ex.Message);
             }
         }
 
 
 
-
-
-
-
-
-
-
-
     }
 
-    
+
 
 }

@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5062/api/event/2",
+					"raw": "http://localhost:5062/api/events/6",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -20,8 +20,8 @@
 					"port": "5062",
 					"path": [
 						"api",
-						"event",
-						"2"
+						"events",
+						"6"
 					]
 				}
 			},
@@ -42,7 +42,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5062/api/event",
+					"raw": "http://localhost:5062/api/events",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -50,7 +50,7 @@
 					"port": "5062",
 					"path": [
 						"api",
-						"event"
+						"events"
 					]
 				}
 			},
@@ -71,7 +71,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5062/api/event/5",
+					"raw": "http://localhost:5062/api/events/8",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -79,8 +79,8 @@
 					"port": "5062",
 					"path": [
 						"api",
-						"event",
-						"5"
+						"events",
+						"8"
 					]
 				}
 			},
@@ -92,7 +92,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5062/api/event/3",
+					"raw": "http://localhost:5062/api/Events/11",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -100,8 +100,8 @@
 					"port": "5062",
 					"path": [
 						"api",
-						"event",
-						"3"
+						"Events",
+						"11"
 					]
 				}
 			},
@@ -111,7 +111,21 @@
 			"name": "get All Users Of Events",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5062/api/Events/4/registration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5062",
+					"path": [
+						"api",
+						"Events",
+						"4",
+						"registration"
+					]
+				}
 			},
 			"response": []
 		},
@@ -152,7 +166,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5062/api/Event/schedule?start=2025-06-01T00:00:00&end=2025-06-30T23:59:59",
+					"raw": "http://localhost:5062/api/Events/schedule?start=2025-04-01T00:00:00&end=2025-07-30T23:59:59",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -160,17 +174,17 @@
 					"port": "5062",
 					"path": [
 						"api",
-						"Event",
+						"Events",
 						"schedule"
 					],
 					"query": [
 						{
 							"key": "start",
-							"value": "2025-06-01T00:00:00"
+							"value": "2025-04-01T00:00:00"
 						},
 						{
 							"key": "end",
-							"value": "2025-06-30T23:59:59"
+							"value": "2025-07-30T23:59:59"
 						}
 					]
 				}
@@ -181,7 +195,72 @@
 			"name": "Get Weather",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5062/api/Events/4/weather",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5062",
+					"path": [
+						"api",
+						"Events",
+						"4",
+						"weather"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5062/api/Users/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5062",
+					"path": [
+						"api",
+						"Users",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Tamar\",\r\n  \"dateOfBirth\": \"2001-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5062/api/Users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5062",
+					"path": [
+						"api",
+						"Users",
+						"register"
+					]
+				}
 			},
 			"response": []
 		}
